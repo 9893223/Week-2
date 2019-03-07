@@ -66,19 +66,19 @@ namespace Task_1
                     answer = num1 + num2;
                 }
 
-                if (input2 == 1)
+                else if (input2 == 1)
                 {
                     Console.WriteLine("{0} * {1} = {2}", num1, num2, answer);
                     answer = num1 * num2;
                 }
 
-                if (input2 == 2)
+                else if (input2 == 2)
                 {
                     Console.WriteLine("{0} / {1} = {2}", num1, num2, answer);
                     answer = num1 / num2;
                 }
 
-                if (input2 == 4)
+                else
                 {
                     Console.WriteLine("{0} - {1} = {2}", num1, num2, answer);
                     answer = num1 - num2;
@@ -87,7 +87,7 @@ namespace Task_1
                 Console.ReadLine();
                 }
 
-                if(input ==3)
+                if (input ==3)
 
                 {
                 Console.WriteLine("What is your first name?");
